@@ -9,7 +9,7 @@ class Address {
     String country
     Date created
 
-    static belongsTo = Person  //one to many relation. i.e one adrress belongs to many persons
+    static belongsTo = Person
 
     static constraints = {
         address(nullable:false)
